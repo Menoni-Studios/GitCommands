@@ -1,0 +1,18 @@
+Step-by-Step Git Setup
+
+1-Get into the folder proyect.
+
+2-Initialize Git in your project folder:
+--->git init
+
+3-Add all your files:
+--->git add .//This will add all the files.
+--->git add text.txt//This will add a specific file.
+    |___git commit -m "Message of update".
+        |___git push//This will push to the gitRepo that I am, if I want to change the Repo, I had to follow other procedures.
+
+4-Add your GitHub remote with the Repo Url:
+--->git remote add origin https://github.com/Menoni-Studios/LearnReact.git
+
+5-Push to GitHub:
+--->git push -u origin main
